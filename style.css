@@ -37,12 +37,18 @@ body {
     margin-right: 15px;
 }
 
-.inputs input{
+.inputs input {
     width: 25px;
     height: 30px;
+    text-align: center;
+    transition: transform 0.5s ease;
 }
 
-.imgs img{
+.inputs input:hover {
+    transform: translateY(-3px);
+}
+
+.imgs img {
     max-width: 120px;
 }
 
@@ -71,7 +77,7 @@ header {
     padding: 20px;
 }
 
-.numbers button{
+.numbers button {
     width: 60px;
     height: 30px;
     margin: 2px;
@@ -97,4 +103,27 @@ header {
 
 .button-confima {
     background-color: green;
+}
+
+@media only screen and (max-width: 1000px) {
+    .urna{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container {
+        text-align: center;
+        padding: 0px 20px 20px 20px;
+    }
+}
+
+@media only screen and (max-width: 625px) {
+    .tela {
+        width: 400px;
+    }
+
+    .container {
+        text-align: center;
+        padding: 0px 20px 20px 20px;
+    }
 }
