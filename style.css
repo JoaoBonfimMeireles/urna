@@ -83,6 +83,11 @@ header {
     margin: 2px;
     border-radius: 2px;
     border: none;
+    transition: 0.2s;
+}
+
+.numbers button:hover{
+    background-color: rgba(3, 238, 3, 0.322);
 }
 
 .buttons button {
@@ -90,7 +95,12 @@ header {
     height: 30px;
     border-radius: 2px;
     border: none;
-    margin: 5px 1px 0;
+    margin: 8px 1px 0;
+    transition: 0.2s;
+}
+
+.buttons button:hover{
+    background-color: rgba(3, 238, 3, 0.322);
 }
 
 .button-branco {

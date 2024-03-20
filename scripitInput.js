@@ -1,7 +1,5 @@
 const numberOfInputs = 5 
-
 const inputContainer = document.getElementById("inputContainer");
-
 const inputValues = []
 
 for(i = 0; i < numberOfInputs; i ++) {
