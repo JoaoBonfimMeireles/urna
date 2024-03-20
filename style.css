@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.urna {
+    display: flex;
+    background-color: rgba(243, 238, 238, 0.733);
+    border-radius: 10px;
+}
+
+.tela {
+    background-color: #e2e2e2;
+    margin: 20px;
+    width: 600px;
+}
+
+.funcionario {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.inputs {
+    display: flex;
+    align-items: center;
+}
+
+.inputs p {
+    margin-right: 15px;
+}
+
+.inputs input{
+    width: 25px;
+    height: 30px;
+}
+
+.imgs img{
+    max-width: 120px;
+}
+
+.footer {
+    border-top: 1px solid black;
+    padding: 20px;
+}
+
+/* teclado */
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #e2e2e2;
+    padding: 10px;
+    margin-bottom: 8px;
+}
+
+.teclado {
+    background-color: rgb(48, 48, 48);
+    padding: 20px;
+}
+
+.numbers button{
+    width: 60px;
+    height: 30px;
+    margin: 2px;
+    border-radius: 2px;
+    border: none;
+}
+
+.buttons button {
+    width: 100px;
+    height: 30px;
+    border-radius: 2px;
+    border: none;
+    margin: 5px 1px 0;
+}
+
+.button-branco {
+    background-color: #fff;
+}
+
+.button-corrige {
+    background-color: chocolate;
+}
+
+.button-confima {
+    background-color: green;
+}
