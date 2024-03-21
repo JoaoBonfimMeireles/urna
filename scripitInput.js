@@ -16,9 +16,5 @@ for (let i = 0; i < numberOfInputs; i++) {
     inputValues.push(Number(inputValue));
 }
 
-const teste = document.getElementById("input");
 
-if(teste+contagemClique){
-    teste.value = clickButton(click);
-}
-
+console.log(inputValues)

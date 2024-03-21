@@ -1,10 +1,19 @@
-let contagemClique = 0;
+let contagemClique = -1;
+const valuesInput = [];
+let codigoCandidato;
 
 function clickButton(click) {
     contagemClique++;
-    const teste = document.getElementById("input" + (contagemClique - 1));
-    teste.value = click;
+    if (contagemClique <= (numberOfInputs - 1)) {
+        const novoInput = document.getElementById("input" + contagemClique);
+        novoInput.value = click;
+        valuesInput.push(click)
+        codigoCandidato = parseInt(valuesInput.join(""))
+        trocaCanditado()
+    }
 }
+
+console.log(codigoCandidato)
 
 function clickButtons(button) {
     switch (button) {
