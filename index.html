@@ -43,33 +43,34 @@
             </header>
             <div class="teclado">
                 <div class="numbers">
-                    <button>1</button>
-                    <button>2</button>
-                    <button>3</button>
+                    <button onclick=clickButton(1)>1</button>
+                    <button onclick=clickButton(2)>2</button>
+                    <button onclick=clickButton(3)>3</button>
                 </div>
                 <div class="numbers">
-                    <button>4</button>
-                    <button>5</button>
-                    <button>6</button>
+                    <button onclick=clickButton(4)>4</button>
+                    <button onclick=clickButton(5)>5</button>
+                    <button onclick=clickButton(6)>6</button>
                 </div>
                 <div class="numbers">
-                    <button>7</button>
-                    <button>8</button>
-                    <button>9</button>
+                    <button onclick=clickButton(7)>7</button>
+                    <button onclick=clickButton(8)>8</button>
+                    <button onclick=clickButton(9)>9</button>
                 </div>
                 <div class="numbers">
-                    <button>0</button>
+                    <button onclick=clickButton(0)>0</button>
                 </div>
                 <div class="buttons">
-                    <button class="button-branco">BRANCO</button>
-                    <button class="button-corrige">CORRIGE</button>
-                    <button class="button-confima">CONFIRMA</button>
+                    <button onclick="clickButtons('branco')" class="button-branco">BRANCO</button>
+                    <button onclick="clickButtons('corrige')" class="button-corrige">CORRIGE</button>
+                    <button onclick="clickButtons('confirma')" class="button-confima">CONFIRMA</button>
                 </div>
             </div>
         </div>
     </div>
-    <script src="scripit.js"></script>
+    <script src="scripitButtons.js"></script>
     <script src="scripitInput.js"></script>
+    <script src="scripitArray.js"></script>
 </body>
 
 </html>
