@@ -26,17 +26,23 @@ function clickButtons(button) {
                 input.value = "";
             }
             contagemClique = -1;
+            codigoCandidato = ""
             valuesInput = [];
             imagemElemento.src = "";
             nomeElemento.innerText = "";
             partidoElemento.innerText = "";
             document.getElementById("nomeParagrafo").classList.add("hidden")
             document.getElementById("partidoParagrafo").classList.add("hidden")
+            document.getElementById("espacamentoParagrafo").classList.add("espacamento")
             break
         case "confirma":
             button.addEventListener("click", function() {
-                document.getElementById("nomeParagrafo").classList.remove("hidden")
-                document.getElementById("partidoParagrafo").classList.remove("hidden")
+                const input = document.getElementById('input0');
+                if(input.value !== "" ){
+                    document.getElementById("nomeParagrafo").classList.remove("hidden")
+                    document.getElementById("partidoParagrafo").classList.remove("hidden")
+                    document.getElementById("espacamentoParagrafo").classList.remove("espacamento")
+                }
                 trocaCanditado()
             });
             break

@@ -22,8 +22,20 @@ body {
     width: 600px;
 }
 
+#nomeParagrafo {
+    margin: 20px 0 5px;
+}
+
+#partidoParagrafo {
+    margin-bottom: 20px;
+}
+
 .hidden {
     display: none;
+}
+
+.espacamento {
+    padding-bottom: 80px;
 }
 
 .funcionario {
