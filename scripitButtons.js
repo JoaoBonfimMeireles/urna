@@ -5,15 +5,13 @@ let codigoCandidato;
 
 function clickButton(click) {
     contagemClique++;
-    if (contagemClique <= (numberOfInputs - 1)) {
+    if (contagemClique <= numberOfInputs) {
         const novoInput = document.getElementById("input" + contagemClique);
         novoInput.value = click;
         valuesInput.push(click)
         codigoCandidato = parseInt(valuesInput.join(""))
-        console.log(codigoCandidato)
     }
 }
-
 
 function clickButtons(button) {
     switch (button.id) {

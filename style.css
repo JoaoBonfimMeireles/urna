@@ -16,6 +16,10 @@ body {
     border-radius: 10px;
 }
 
+.text h1 {
+    margin-bottom: 20px;
+}
+
 .tela {
     background-color: #e2e2e2;
     margin: 20px;
@@ -23,11 +27,7 @@ body {
 }
 
 #nomeParagrafo {
-    margin: 20px 0 5px;
-}
-
-#partidoParagrafo {
-    margin-bottom: 20px;
+    margin: 2px 0 3px;
 }
 
 .hidden {
@@ -35,7 +35,7 @@ body {
 }
 
 .espacamento {
-    padding-bottom: 80px;
+    padding-bottom: 40px;
 }
 
 .funcionario {
@@ -70,7 +70,8 @@ body {
 
 .footer {
     border-top: 1px solid black;
-    padding: 20px;
+    padding: 30px;
+    line-height: 25px;
 }
 
 /* teclado */
