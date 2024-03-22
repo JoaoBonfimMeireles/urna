@@ -17,4 +17,3 @@ for (let i = 0; i < numberOfInputs; i++) {
 }
 
 
-console.log(inputValues)
