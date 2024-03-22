@@ -22,6 +22,10 @@ body {
     width: 600px;
 }
 
+.hidden {
+    display: none;
+}
+
 .funcionario {
     display: flex;
     padding: 20px;

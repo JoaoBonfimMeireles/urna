@@ -1,5 +1,5 @@
 let contagemClique = -1;
-const valuesInput = [];
+let valuesInput = [];
 let codigoCandidato;
 
 
@@ -21,12 +21,24 @@ function clickButtons(button) {
             alert(button.id + " tu apertou")
             break
         case "corrige":
-            button.addEventListener("click", function() {
-                codigoCandidato = "";
-            });
+            for(let i = 0; i < numberOfInputs; i++){
+                const input = document.getElementById('input' + i);
+                input.value = "";
+            }
+            contagemClique = -1;
+            valuesInput = [];
+            imagemElemento.src = "";
+            nomeElemento.innerText = "";
+            partidoElemento.innerText = "";
+            document.getElementById("nomeParagrafo").classList.add("hidden")
+            document.getElementById("partidoParagrafo").classList.add("hidden")
             break
         case "confirma":
-            button.addEventListener("click", trocaCanditado());
+            button.addEventListener("click", function() {
+                document.getElementById("nomeParagrafo").classList.remove("hidden")
+                document.getElementById("partidoParagrafo").classList.remove("hidden")
+                trocaCanditado()
+            });
             break
     }
 }

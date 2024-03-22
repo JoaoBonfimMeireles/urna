@@ -1,6 +1,6 @@
-const imagemElemento = document.getElementById("imagem");
-const nomeElemento = document.getElementById("nome");
-const partidoElemento = document.getElementById("partido");
+let imagemElemento = document.getElementById("imagem");
+let nomeElemento = document.getElementById("nome");
+let partidoElemento = document.getElementById("partido");
 
 function trocaCanditado() {
     for (let i = 0; i < candidatos.length; i++) {
