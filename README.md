@@ -4,7 +4,7 @@
 
 <p align="center">
   <img alt="projeto DevLinks" src="img/2.png" width="48%" height="250px">
-    <img alt="projeto DevLinks" src="img/3.png" width="38%" height="250px">
+    <img alt="projeto DevLinks" src="img/3.png" width="30%" height="250px">
 </p>
 
 ## ⚙️ Como rodar o projeto:
